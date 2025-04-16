@@ -1,0 +1,22 @@
+/* Estilos adicionais que não são facilmente alcançáveis com Tailwind */
+.event-card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+}
+
+.chat-message {
+  max-width: 70%;
+}
+
+.chat-message.sent {
+  background-color: #e9ecef;
+  align-self: flex-end;
+}
+
+.chat-message.received {
+  background-color: #f8f9fa;
+  align-self: flex-start;
+}
